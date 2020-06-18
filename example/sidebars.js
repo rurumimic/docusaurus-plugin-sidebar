@@ -1,27 +1,47 @@
 module.exports = {
-  "someSidebar": [
+  "advanced": [
     {
       "type": "category",
-      "label": "Hey",
+      "label": "Alphabet",
       "items": [
         {
           "type": "doc",
-          "id": "doc1"
+          "id": "autoimport/apple"
         },
         {
           "type": "doc",
-          "id": "doc2"
+          "id": "autoimport/baby"
         },
         {
           "type": "doc",
-          "id": "doc3"
-        },
-        {
-          "type": "doc",
-          "id": "mdx"
+          "id": "autoimport/cat"
         }
       ]
     },
+    {
+      "type": "category",
+      "label": "Number",
+      "items": [
+        {
+          "type": "doc",
+          "id": "autoimport/number/1"
+        },
+        {
+          "type": "doc",
+          "id": "autoimport/number/2"
+        },
+        {
+          "type": "doc",
+          "id": "autoimport/number/5"
+        },
+        {
+          "type": "doc",
+          "id": "autoimport/number/4"
+        }
+      ]
+    }
+  ],
+  "someSidebar": [
     {
       "type": "category",
       "label": "Docusaurus",
@@ -42,11 +62,51 @@ module.exports = {
     },
     {
       "type": "category",
-      "label": "22",
+      "label": "Features",
       "items": [
         {
           "type": "doc",
-          "id": "doc1"
+          "id": "mdx"
+        }
+      ]
+    }
+  ],
+  "anotherSidebar": [
+    {
+      "type": "category",
+      "label": "Category",
+      "items": [
+        {
+          "type": "doc",
+          "id": "another/doc4"
+        },
+        {
+          "type": "ref",
+          "id": "another/doc5"
+        },
+        {
+          "type": "link",
+          "label": "Link: Facebook GitHub",
+          "href": "https://github.com/facebook"
+        },
+        {
+          "type": "category",
+          "label": "Sub",
+          "items": [
+            {
+              "type": "doc",
+              "id": "another/sub/doc6"
+            },
+            {
+              "type": "doc",
+              "id": "another/sub/doc7"
+            },
+            {
+              "type": "link",
+              "label": "Link: Docusaurus GitHub",
+              "href": "https://github.com/facebook/docusaurus"
+            }
+          ]
         }
       ]
     }

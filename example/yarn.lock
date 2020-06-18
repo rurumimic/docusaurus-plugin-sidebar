@@ -1165,16 +1165,7 @@
     docsearch.js "^2.6.3"
     eta "^1.1.1"
 
-"@docusaurus/types@^2.0.0-alpha.37":
-  version "2.0.0-alpha.37"
-  resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-alpha.37.tgz#e14b8758cfefab5235c5ec190c489dd32cb7a8b8"
-  integrity sha512-t0bwfUQLEY6FGZX1OGhB29y7OQFAzqmNfP/UewUWOb/OiG5HBZ/r7OfwOH1dfmbjRJD99eHA3r4br8jwuvQfPg==
-  dependencies:
-    "@types/webpack" "^4.41.0"
-    commander "^4.0.1"
-    querystring "0.2.0"
-
-"@docusaurus/types@^2.0.0-alpha.58":
+"@docusaurus/types@^2.0.0-alpha.56", "@docusaurus/types@^2.0.0-alpha.58":
   version "2.0.0-alpha.58"
   resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-alpha.58.tgz#d7b0264e79549790c42d2781998b437bb573a294"
   integrity sha512-OSkxoLwWJMhEHa4s6SXVCjfGwYm21yF6ZggoUo6kz+qqslTgF/JcPCVF9Y1Hf6bJJxUisi+ZHrHKEC6k4pphPA==
@@ -3423,12 +3414,12 @@ docsearch.js@^2.6.3:
     to-factory "^1.0.0"
     zepto "^1.2.0"
 
-docusaurus-plugin-sidebar@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/docusaurus-plugin-sidebar/-/docusaurus-plugin-sidebar-0.0.8.tgz#17ef44cb91e03843ddd6f012c6a46bf08d2388b4"
-  integrity sha512-utgDhjIL1d65NLulbJIXu7aOBvajhtUqQSs2nYngo0xLMRXBplOnBJBHV07wXEpAAuh2YSKPUw8vXUR/ixWIxQ==
+docusaurus-plugin-sidebar@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-sidebar/-/docusaurus-plugin-sidebar-0.0.10.tgz#daed1c7e8a7eada1815f35784f1cc94408d474fb"
+  integrity sha512-XDj0k6ClRWydCzhLhpHwibuV/QUTQ+HTGPi1ZPABNFRBLOe0+VRL+m1kVMPZi6S3EUsKk3w18Ks42i6Z2jc09Q==
   dependencies:
-    "@docusaurus/types" "^2.0.0-alpha.37"
+    "@docusaurus/types" "^2.0.0-alpha.56"
     yaml "^1.10.0"
 
 dom-converter@^0.2:

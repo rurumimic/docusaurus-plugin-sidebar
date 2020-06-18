@@ -65,7 +65,7 @@ const sidebarItems = () => {
 }
 
 // sidebar.js module
-const module = `module.exports = items;`
+const template = `module.exports = items;`
 
 // Rewrite sidebars.js
 const update = (sidebarFile: string, sidebarItems: string): void => {
@@ -78,7 +78,7 @@ const createSidebar = (siteDir: string, sidebarDir: string, sidebarFile: string)
   _siteDir = siteDir
   _sidebarDir = sidebarDir
   const items = sidebarItems()
-  const result = module.replace('items', JSON.stringify(items, null, 2))
+  const result = template.replace('items', JSON.stringify(items, null, 2))
   update(sidebarFile, result)
 }
 
