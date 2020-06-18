@@ -1,0 +1,8 @@
+advanced:
+  - Alphabet: autoimport
+  - Number: autoimport/number
+    items:
+      - 1
+      - 2
+      - 5
+      - 4

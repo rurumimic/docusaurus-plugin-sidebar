@@ -1,0 +1,19 @@
+someSidebar:
+  - Docusaurus:
+    - doc1
+    - doc2
+    - doc3
+  - Features:
+    - mdx
+
+anotherSidebar:
+  - Category:
+    - another/doc4
+    - ref: another/doc5
+    - name: 'Link: Facebook GitHub'
+      link: https://github.com/facebook
+    - Sub:
+      - another/sub/doc6
+      - another/sub/doc7
+      - name: 'Link: Docusaurus GitHub'
+        link: https://github.com/facebook/docusaurus
