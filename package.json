@@ -1,0 +1,10 @@
+{
+  "name": "docusaurus-plugin-sidebar",
+  "version": "0.0.1",
+  "description": "Docusaurus v2 plugin for generating the sidebar items by YAML files",
+  "main": "index.js",
+  "repository": "https://github.com/rurumimic/docusaurus-plugin-sidebar",
+  "author": "rurumimic",
+  "license": "MIT",
+  "dependencies": {}
+}
