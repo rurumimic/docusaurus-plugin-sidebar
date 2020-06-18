@@ -3414,10 +3414,10 @@ docsearch.js@^2.6.3:
     to-factory "^1.0.0"
     zepto "^1.2.0"
 
-docusaurus-plugin-sidebar@0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/docusaurus-plugin-sidebar/-/docusaurus-plugin-sidebar-0.0.10.tgz#daed1c7e8a7eada1815f35784f1cc94408d474fb"
-  integrity sha512-XDj0k6ClRWydCzhLhpHwibuV/QUTQ+HTGPi1ZPABNFRBLOe0+VRL+m1kVMPZi6S3EUsKk3w18Ks42i6Z2jc09Q==
+docusaurus-plugin-sidebar@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-sidebar/-/docusaurus-plugin-sidebar-1.0.0.tgz#5a0e2e004ebd70ebd65b039ffd9d488ff505fb12"
+  integrity sha512-LuE6tfDrirdDTu0ibQmZM00qS8RaT6jDoZkzYmee3SUK0ekanFumvlzghzyDS8A0JJc4bUfhC74jFXFHmOLI8Q==
   dependencies:
     "@docusaurus/types" "^2.0.0-alpha.56"
     yaml "^1.10.0"
