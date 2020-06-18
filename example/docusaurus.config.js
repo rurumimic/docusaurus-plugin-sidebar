@@ -1,11 +1,11 @@
 module.exports = {
   title: "My Site",
   tagline: "The tagline of my site",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://rurumimic.github.io",
+  baseUrl: "/docusaurus-plugin-sidebar/",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "rurumimic", // Usually your GitHub org/user name.
+  projectName: "docusaurus-plugin-sidebar", // Usually your repo name.
   plugins: [require.resolve("docusaurus-plugin-sidebar")],
   themeConfig: {
     navbar: {
